@@ -63,7 +63,7 @@ Run these commands, substituting the text in `<brackets>`
 
 ```
 git clone https://git.davidshewitt.com/linux-colonel/eggtimer-linux-updater.git
-cd ~/eggtimer-linux-updater
+cd eggtimer-linux-updater
 unzip ~/Downloads/<EggtimerFirmware>.zip
 ```
 
@@ -88,6 +88,6 @@ Update the Firmware
 ### ESP Devices
 
 1. Short the PGM pads / jumper.  If the device is a Quasar, remove the jumper from the RUN pins and place it on the PGM pins.
-2. In your terminal, stage the update script (do not press ENTER yet), replacing the parameters in `<brackets>`: `./eggtimer-update-esp.sh /dev/ttyUSB<0> <eggtimer-firmware>.bin
+2. In your terminal, stage the update script (do not press ENTER yet), replacing the parameters in `<brackets>`: `./eggtimer-update-esp.sh /dev/ttyUSB<0> <eggtimer-firmware>.bin`
 3. Power on your device and press ENTER.
 4. You should see text and a bunch of dots (.........) outputted.  Afterwards, the device will reboot and make its normal startup beeps.
